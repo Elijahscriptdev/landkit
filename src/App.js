@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className='App'>
-      <h1>Landkit</h1>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
