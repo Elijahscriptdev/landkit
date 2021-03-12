@@ -30,16 +30,16 @@ const Footer = () => {
           <p className='text'>A better way to build.</p>
           <ul>
             <li>
-              <img src={one} alt='' />
+              <img src={one} alt='img' />
             </li>
             <li>
-              <img src={two} alt='' />
+              <img src={two} alt='img' />
             </li>
             <li>
-              <img src={three} alt='' />
+              <img src={three} alt='img' />
             </li>
             <li>
-              <img src={four} alt='' />
+              <img src={four} alt='img' />
             </li>
           </ul>
         </div>

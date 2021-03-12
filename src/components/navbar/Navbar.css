@@ -60,3 +60,10 @@
   color: #ffffff !important;
   cursor: pointer;
 }
+
+@media screen and (max-width: 970px){
+    /* styles */
+    .nav-items {
+      display: none !important;
+    }
+  }

@@ -80,3 +80,35 @@
   color: #506690;
   font-weight: normal;
 }
+
+@media screen and (max-width: 673px) {
+  .first-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .second-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .second-footer p {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    color: #506690;
+    font-weight: bold;
+  }
+
+  .second-footer .one {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .second-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
