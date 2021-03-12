@@ -2,6 +2,11 @@ import React from "react";
 import "./Footer.css";
 import google from "../../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
 import apple from "../../assets/image.svg";
+import logo from "../../assets/Landkit..svg";
+import one from "../../assets/icons/Vector.svg";
+import two from "../../assets/icons/Vector (2).svg";
+import three from "../../assets/icons/Vector (3).svg";
+import four from "../../assets/icons/Vector (4).svg";
 
 const Footer = () => {
   return (
@@ -19,15 +24,23 @@ const Footer = () => {
 
       <hr />
 
-      <div className='second-footer'>
+      <div className='second-footer mt-5'>
         <div className='one'>
-          <p>LOGO</p>
-          <p>A better way to build.</p>
+          <img src={logo} alt='logo' />
+          <p className='text'>A better way to build.</p>
           <ul>
-            <li>uu</li>
-            <li>uu</li>
-            <li>uu</li>
-            <li>uu</li>
+            <li>
+              <img src={one} alt='' />
+            </li>
+            <li>
+              <img src={two} alt='' />
+            </li>
+            <li>
+              <img src={three} alt='' />
+            </li>
+            <li>
+              <img src={four} alt='' />
+            </li>
           </ul>
         </div>
         <div className='two'>

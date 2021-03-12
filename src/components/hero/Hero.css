@@ -1,6 +1,7 @@
 .hero-container {
   max-width: 940px;
   margin: auto;
+  padding: 0 15px;
 }
 
 .hero-text {
@@ -8,16 +9,15 @@
 }
 
 .hero-text h1 {
-  /* font-family: HK Grotesk Pro; */
-  font-size: 43px;
-  line-height: 54px;
+  font-size: 40px;
+  line-height: 50px;
   letter-spacing: -0.01em;
   color: #161c2d;
 }
 
 .hero-text p {
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
   color: #869ab8;
 }
 
@@ -53,19 +53,19 @@
 
 .hero-text2 {
   margin: auto;
+  padding: 0 30px;
 }
 
 .hero-text2 h1 {
-  /* font-family: HK Grotesk Pro; */
-  font-size: 43px;
-  line-height: 54px;
+  font-size: 40px;
+  line-height: 50px;
   letter-spacing: -0.01em;
   color: #161c2d;
 }
 
 .hero-text2 p {
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
   color: #869ab8;
 }
 
@@ -95,15 +95,14 @@
   line-height: 26px;
   text-align: center;
   color: #ffffff;
-  /* width: 35%; */
 }
 
 .hero-text3 {
   margin: auto;
+  padding: 0 30px;
 }
 
 .hero-text3 h1 {
-  /* font-family: HK Grotesk Pro; */
   font-size: 37px;
   line-height: 44px;
   letter-spacing: -0.01em;
@@ -111,8 +110,8 @@
 }
 
 .hero-text3 p {
-  font-size: 19px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 26px;
   color: #869ab8;
 }
 
@@ -125,4 +124,53 @@
   height: 692px;
   width: 100%;
   object-fit: contain;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.img4 .video {
+  width: 150px;
+  padding: 12px 15px;
+  border-radius: 26px;
+  background: #ffffff;
+  box-shadow: 0px 24px 64px rgba(22, 27, 45, 0.15);
+  margin: 290px auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #161b2d;
+  font-weight: bold;
+}
+
+.touch-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.first-cont .image2 {
+  margin-top: 50px;
+}
+
+.first-cont .image3 {
+  margin-top: 15px;
+}
+
+.first-cont .image4 {
+  margin-top: -15px;
+}
+
+.first-cont img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.touch-container .col-6 {
+  padding: 0 0 0 12px;
 }
